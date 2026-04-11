@@ -1,0 +1,10 @@
+{
+    "venvPath": "/opt/anaconda3/envs",
+    "venv": "silver_ml",
+    "extraPaths": ["."],
+    "executionEnvironments": [
+        {
+            "root": "."
+        }
+    ]
+}

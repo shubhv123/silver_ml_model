@@ -1,0 +1,20 @@
+data:
+  silver_symbol: "SI=F"
+  gold_symbol: "GC=F"
+  start_date: "2004-01-01" 
+  end_date: "2024-01-01"
+  
+fred_series:
+  treasury_10yr: "DGS10"      
+  dollar_index: "DTWEXBGS"    
+  cpi: "CPIAUCSL"            
+  fed_funds: "FEDFUNDS"      
+  
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  interim_data: "data/interim/"
+  
+qlib:
+  provider_uri: "~/.qlib/qlib_data/cn_data"
+  market: "csi300"
