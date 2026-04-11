@@ -37,3 +37,12 @@ models/checkpoints/*
 # OS
 .DS_Store
 Thumbs.db
+
+# Logs & Cache
+*.log
+*.sqlite
+catboost_info/
+reports/metrics/*
+reports/figures/*
+!reports/metrics/.gitkeep
+!reports/figures/.gitkeep
