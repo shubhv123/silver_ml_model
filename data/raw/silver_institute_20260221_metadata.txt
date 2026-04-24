@@ -1,0 +1,6 @@
+filename: silver_institute_20260221.csv
+date_range: 2006-02-26 00:00:00 to 2026-02-21 00:00:00
+observations: 7301
+columns: ['date', 'year', 'mine_production', 'government_sales', 'old_scrap', 'net_hedging', 'industrial_fabrication', 'photography', 'jewelry', 'silverware', 'investment', 'etf_investment', 'total_supply', 'total_demand', 'market_balance', 'balance_pct', 'mine_share', 'recycling_share', 'industrial_share', 'investment_share', 'mine_growth', 'demand_growth', 'stock_to_flow', 'supply_3y_avg', 'demand_3y_avg']
+source: World Silver Survey (compiled data)
+frequency: Annual (expanded to daily)

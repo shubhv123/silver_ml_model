@@ -1,0 +1,14 @@
+{
+  "timestamp": "20260410_221232",
+  "total_articles": 20,
+  "date_range": "2019-01-01 00:00:00 to 2019-03-13 00:00:00",
+  "sources": [
+    "Kitco",
+    "Mining.com",
+    "Reuters",
+    "Bloomberg"
+  ],
+  "source_types": [
+    "sample"
+  ]
+}

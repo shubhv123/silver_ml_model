@@ -1,0 +1,7 @@
+filename: feature_matrix_20260221_221747.csv
+date_range: 2006-04-28 00:00:00-04:00 to 2023-12-29 00:00:00-05:00
+rows: 4443
+total_columns: 434
+feature_columns: 425
+target_columns: 9
+creation_date: 2026-02-21T22:17:48.343136

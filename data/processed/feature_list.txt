@@ -1,0 +1,427 @@
+FEATURE LIST
+============================================================
+  1. atr_14
+  2. atr_percent
+  3. bb_lower
+  4. bb_position
+  5. bb_upper
+  6. bb_width
+  7. close
+  8. close_ema_12_ratio
+  9. close_ema_21_ratio
+ 10. close_ema_50_ratio
+ 11. close_ema_9_ratio
+ 12. close_lag_1
+ 13. close_lag_10
+ 14. close_lag_2
+ 15. close_lag_21
+ 16. close_lag_3
+ 17. close_lag_5
+ 18. close_lag_63
+ 19. close_open_ratio
+ 20. close_open_ratio_lag_1
+ 21. close_open_ratio_lag_10
+ 22. close_open_ratio_lag_2
+ 23. close_open_ratio_lag_21
+ 24. close_open_ratio_lag_3
+ 25. close_open_ratio_lag_5
+ 26. close_open_ratio_lag_63
+ 27. close_rolling_10_max
+ 28. close_rolling_10_mean
+ 29. close_rolling_10_min
+ 30. close_rolling_10_std
+ 31. close_rolling_21_max
+ 32. close_rolling_21_mean
+ 33. close_rolling_21_min
+ 34. close_rolling_21_std
+ 35. close_rolling_252_max
+ 36. close_rolling_252_mean
+ 37. close_rolling_252_min
+ 38. close_rolling_252_std
+ 39. close_rolling_5_max
+ 40. close_rolling_5_mean
+ 41. close_rolling_5_min
+ 42. close_rolling_5_std
+ 43. close_rolling_63_max
+ 44. close_rolling_63_mean
+ 45. close_rolling_63_min
+ 46. close_rolling_63_std
+ 47. close_sma_10_ratio
+ 48. close_sma_200_ratio
+ 49. close_sma_20_ratio
+ 50. close_sma_50_ratio
+ 51. close_sma_5_ratio
+ 52. copper_close
+ 53. copper_corr
+ 54. cpi
+ 55. cpi_acceleration
+ 56. cpi_mom
+ 57. cpi_yoy
+ 58. death_cross
+ 59. dollar_index
+ 60. ema_12
+ 61. ema_21
+ 62. ema_50
+ 63. ema_9
+ 64. etf_aum_usd
+ 65. etf_daily_flow_oz
+ 66. etf_daily_flow_shares
+ 67. etf_daily_flow_usd
+ 68. etf_data_source
+ 69. etf_flow_21d_sum
+ 70. etf_flow_5d_sum
+ 71. etf_flow_signal
+ 72. etf_holdings_oz
+ 73. etf_shares_outstanding
+ 74. etf_slv_price
+ 75. etf_slv_volume
+ 76. fed_funds
+ 77. fund_balance_pct
+ 78. fund_deficit_surplus
+ 79. fund_demand_3y_avg
+ 80. fund_demand_growth
+ 81. fund_etf_investment
+ 82. fund_government_sales
+ 83. fund_industrial_fabrication
+ 84. fund_industrial_share
+ 85. fund_investment
+ 86. fund_investment_share
+ 87. fund_jewelry
+ 88. fund_market_balance
+ 89. fund_mine_growth
+ 90. fund_mine_production
+ 91. fund_mine_share
+ 92. fund_net_hedging
+ 93. fund_old_scrap
+ 94. fund_photography
+ 95. fund_recycling_share
+ 96. fund_silverware
+ 97. fund_stock_to_flow
+ 98. fund_stock_to_flow_zscore
+ 99. fund_supply_3y_avg
+100. fund_total_demand
+101. fund_total_supply
+102. gdp_growth
+103. gold_close
+104. gold_silver_corr
+105. gold_silver_ratio
+106. gold_silver_ratio_change
+107. golden_cross
+108. high
+109. high_lag_1
+110. high_lag_10
+111. high_lag_2
+112. high_lag_21
+113. high_lag_3
+114. high_lag_5
+115. high_lag_63
+116. high_low_ratio
+117. high_low_ratio_lag_1
+118. high_low_ratio_lag_10
+119. high_low_ratio_lag_2
+120. high_low_ratio_lag_21
+121. high_low_ratio_lag_3
+122. high_low_ratio_lag_5
+123. high_low_ratio_lag_63
+124. high_rolling_10_max
+125. high_rolling_10_mean
+126. high_rolling_10_min
+127. high_rolling_10_std
+128. high_rolling_21_max
+129. high_rolling_21_mean
+130. high_rolling_21_min
+131. high_rolling_21_std
+132. high_rolling_252_max
+133. high_rolling_252_mean
+134. high_rolling_252_min
+135. high_rolling_252_std
+136. high_rolling_5_max
+137. high_rolling_5_mean
+138. high_rolling_5_min
+139. high_rolling_5_std
+140. high_rolling_63_max
+141. high_rolling_63_mean
+142. high_rolling_63_min
+143. high_rolling_63_std
+144. industrial_production
+145. industrial_production_mom
+146. industrial_production_yoy
+147. inflation_expectations
+148. log_returns_1d
+149. log_returns_1d_lag_1
+150. log_returns_1d_lag_10
+151. log_returns_1d_lag_2
+152. log_returns_1d_lag_21
+153. log_returns_1d_lag_3
+154. log_returns_1d_lag_5
+155. log_returns_1d_lag_63
+156. low
+157. low_lag_1
+158. low_lag_10
+159. low_lag_2
+160. low_lag_21
+161. low_lag_3
+162. low_lag_5
+163. low_lag_63
+164. low_rolling_10_max
+165. low_rolling_10_mean
+166. low_rolling_10_min
+167. low_rolling_10_std
+168. low_rolling_21_max
+169. low_rolling_21_mean
+170. low_rolling_21_min
+171. low_rolling_21_std
+172. low_rolling_252_max
+173. low_rolling_252_mean
+174. low_rolling_252_min
+175. low_rolling_252_std
+176. low_rolling_5_max
+177. low_rolling_5_mean
+178. low_rolling_5_min
+179. low_rolling_5_std
+180. low_rolling_63_max
+181. low_rolling_63_mean
+182. low_rolling_63_min
+183. low_rolling_63_std
+184. macd
+185. macd_histogram
+186. macd_signal
+187. obv
+188. obv_ma_ratio
+189. oil_close
+190. oil_corr
+191. open
+192. open_lag_1
+193. open_lag_10
+194. open_lag_2
+195. open_lag_21
+196. open_lag_3
+197. open_lag_5
+198. open_lag_63
+199. open_rolling_10_max
+200. open_rolling_10_mean
+201. open_rolling_10_min
+202. open_rolling_10_std
+203. open_rolling_21_max
+204. open_rolling_21_mean
+205. open_rolling_21_min
+206. open_rolling_21_std
+207. open_rolling_252_max
+208. open_rolling_252_mean
+209. open_rolling_252_min
+210. open_rolling_252_std
+211. open_rolling_5_max
+212. open_rolling_5_mean
+213. open_rolling_5_min
+214. open_rolling_5_std
+215. open_rolling_63_max
+216. open_rolling_63_mean
+217. open_rolling_63_min
+218. open_rolling_63_std
+219. rate_regime
+220. real_rate_10yr
+221. returns_1d
+222. returns_1d_lag_1
+223. returns_1d_lag_10
+224. returns_1d_lag_2
+225. returns_1d_lag_21
+226. returns_1d_lag_3
+227. returns_1d_lag_5
+228. returns_1d_lag_63
+229. returns_1d_rolling_10_max
+230. returns_1d_rolling_10_mean
+231. returns_1d_rolling_10_min
+232. returns_1d_rolling_10_std
+233. returns_1d_rolling_21_max
+234. returns_1d_rolling_21_mean
+235. returns_1d_rolling_21_min
+236. returns_1d_rolling_21_std
+237. returns_1d_rolling_252_max
+238. returns_1d_rolling_252_mean
+239. returns_1d_rolling_252_min
+240. returns_1d_rolling_252_std
+241. returns_1d_rolling_5_max
+242. returns_1d_rolling_5_mean
+243. returns_1d_rolling_5_min
+244. returns_1d_rolling_5_std
+245. returns_1d_rolling_63_max
+246. returns_1d_rolling_63_mean
+247. returns_1d_rolling_63_min
+248. returns_1d_rolling_63_std
+249. returns_21d
+250. returns_21d_lag_1
+251. returns_21d_lag_10
+252. returns_21d_lag_2
+253. returns_21d_lag_21
+254. returns_21d_lag_3
+255. returns_21d_lag_5
+256. returns_21d_lag_63
+257. returns_21d_rolling_10_max
+258. returns_21d_rolling_10_mean
+259. returns_21d_rolling_10_min
+260. returns_21d_rolling_10_std
+261. returns_21d_rolling_21_max
+262. returns_21d_rolling_21_mean
+263. returns_21d_rolling_21_min
+264. returns_21d_rolling_21_std
+265. returns_21d_rolling_252_max
+266. returns_21d_rolling_252_mean
+267. returns_21d_rolling_252_min
+268. returns_21d_rolling_252_std
+269. returns_21d_rolling_5_max
+270. returns_21d_rolling_5_mean
+271. returns_21d_rolling_5_min
+272. returns_21d_rolling_5_std
+273. returns_21d_rolling_63_max
+274. returns_21d_rolling_63_mean
+275. returns_21d_rolling_63_min
+276. returns_21d_rolling_63_std
+277. returns_252d
+278. returns_252d_lag_1
+279. returns_252d_lag_10
+280. returns_252d_lag_2
+281. returns_252d_lag_21
+282. returns_252d_lag_3
+283. returns_252d_lag_5
+284. returns_252d_lag_63
+285. returns_252d_rolling_10_max
+286. returns_252d_rolling_10_mean
+287. returns_252d_rolling_10_min
+288. returns_252d_rolling_10_std
+289. returns_252d_rolling_21_max
+290. returns_252d_rolling_21_mean
+291. returns_252d_rolling_21_min
+292. returns_252d_rolling_21_std
+293. returns_252d_rolling_252_max
+294. returns_252d_rolling_252_mean
+295. returns_252d_rolling_252_min
+296. returns_252d_rolling_252_std
+297. returns_252d_rolling_5_max
+298. returns_252d_rolling_5_mean
+299. returns_252d_rolling_5_min
+300. returns_252d_rolling_5_std
+301. returns_252d_rolling_63_max
+302. returns_252d_rolling_63_mean
+303. returns_252d_rolling_63_min
+304. returns_252d_rolling_63_std
+305. returns_5d
+306. returns_5d_lag_1
+307. returns_5d_lag_10
+308. returns_5d_lag_2
+309. returns_5d_lag_21
+310. returns_5d_lag_3
+311. returns_5d_lag_5
+312. returns_5d_lag_63
+313. returns_5d_rolling_10_max
+314. returns_5d_rolling_10_mean
+315. returns_5d_rolling_10_min
+316. returns_5d_rolling_10_std
+317. returns_5d_rolling_21_max
+318. returns_5d_rolling_21_mean
+319. returns_5d_rolling_21_min
+320. returns_5d_rolling_21_std
+321. returns_5d_rolling_252_max
+322. returns_5d_rolling_252_mean
+323. returns_5d_rolling_252_min
+324. returns_5d_rolling_252_std
+325. returns_5d_rolling_5_max
+326. returns_5d_rolling_5_mean
+327. returns_5d_rolling_5_min
+328. returns_5d_rolling_5_std
+329. returns_5d_rolling_63_max
+330. returns_5d_rolling_63_mean
+331. returns_5d_rolling_63_min
+332. returns_5d_rolling_63_std
+333. returns_63d
+334. returns_63d_lag_1
+335. returns_63d_lag_10
+336. returns_63d_lag_2
+337. returns_63d_lag_21
+338. returns_63d_lag_3
+339. returns_63d_lag_5
+340. returns_63d_lag_63
+341. returns_63d_rolling_10_max
+342. returns_63d_rolling_10_mean
+343. returns_63d_rolling_10_min
+344. returns_63d_rolling_10_std
+345. returns_63d_rolling_21_max
+346. returns_63d_rolling_21_mean
+347. returns_63d_rolling_21_min
+348. returns_63d_rolling_21_std
+349. returns_63d_rolling_252_max
+350. returns_63d_rolling_252_mean
+351. returns_63d_rolling_252_min
+352. returns_63d_rolling_252_std
+353. returns_63d_rolling_5_max
+354. returns_63d_rolling_5_mean
+355. returns_63d_rolling_5_min
+356. returns_63d_rolling_5_std
+357. returns_63d_rolling_63_max
+358. returns_63d_rolling_63_mean
+359. returns_63d_rolling_63_min
+360. returns_63d_rolling_63_std
+361. rsi_14
+362. rsi_21
+363. sma_10
+364. sma_20
+365. sma_200
+366. sma_5
+367. sma_50
+368. sp500_close
+369. sp500_corr
+370. symbol
+380. treasury_10yr
+381. treasury_2yr
+382. treasury_30yr
+383. unemployment
+384. vix_close
+385. vix_corr
+386. volatility_21d
+387. volatility_21d_lag_1
+388. volatility_21d_lag_10
+389. volatility_21d_lag_2
+390. volatility_21d_lag_21
+391. volatility_21d_lag_3
+392. volatility_21d_lag_5
+393. volatility_21d_lag_63
+394. volatility_5d
+395. volatility_5d_lag_1
+396. volatility_5d_lag_10
+397. volatility_5d_lag_2
+398. volatility_5d_lag_21
+399. volatility_5d_lag_3
+400. volatility_5d_lag_5
+401. volatility_5d_lag_63
+402. volatility_63d
+403. volume
+404. volume_lag_1
+405. volume_lag_10
+406. volume_lag_2
+407. volume_lag_21
+408. volume_lag_3
+409. volume_lag_5
+410. volume_lag_63
+411. volume_ratio
+412. volume_rolling_10_max
+413. volume_rolling_10_mean
+414. volume_rolling_10_min
+415. volume_rolling_10_std
+416. volume_rolling_21_max
+417. volume_rolling_21_mean
+418. volume_rolling_21_min
+419. volume_rolling_21_std
+420. volume_rolling_252_max
+421. volume_rolling_252_mean
+422. volume_rolling_252_min
+423. volume_rolling_252_std
+424. volume_rolling_5_max
+425. volume_rolling_5_mean
+426. volume_rolling_5_min
+427. volume_rolling_5_std
+428. volume_rolling_63_max
+429. volume_rolling_63_mean
+430. volume_rolling_63_min
+431. volume_rolling_63_std
+432. yield_curve_10y2y
+433. yield_curve_30y10y
+434. yield_curve_regime

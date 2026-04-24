@@ -14,18 +14,23 @@ venv.bak/
 .ipynb_checkpoints
 *.ipynb
 
-# Data
-data/raw/*
-data/processed/*
+# Data (large files - users can download themselves)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+data/qlib/*.csv
+data/qlib/*.zip
 
-# Models
-models/saved/*
-models/checkpoints/*
+# Models (large binary files)
+models/saved/*.pkl
+models/saved/*.keras
+models/saved/*.cbm
+models/saved/*.nc
 !models/saved/.gitkeep
 
-# Environment variables
+# Environment variables (contains API keys)
 .env
 
 # IDE
@@ -38,11 +43,18 @@ models/checkpoints/*
 .DS_Store
 Thumbs.db
 
-# Logs & Cache
+# Logs and reports (optional, can be generated)
+logs/
 *.log
-*.sqlite
-catboost_info/
-reports/metrics/*
-reports/figures/*
-!reports/metrics/.gitkeep
-!reports/figures/.gitkeep
+reports/figures/*.png
+reports/metrics/*.csv
+reports/metrics/*.json
+
+# Temporary files
+*.tmp
+*.temp
+debug_*.py
+test_*.py
+
+# Qlib cache
+~/.qlib/
