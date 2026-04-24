@@ -11,29 +11,36 @@ fredapi>=0.5.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
-html5lib>=1.1
 feedparser>=6.0.0
 
-# Web scraping utilities (minimal)
-cssselect>=1.2.0
-w3lib>=2.1.0
+# Machine Learning
+xgboost>=1.7.0
+lightgbm>=3.3.0
+catboost>=1.1.0
+optuna>=3.0.0
 
-# Visualization
+# Deep Learning
+tensorflow>=2.13.0
+
+# NLP
+transformers>=4.35.0
+vaderSentiment>=3.3.2
+textblob>=0.17.1
+
+# Bayesian & Visualization
+pymc>=5.8.0
+arviz>=0.16.0
+shap>=0.41.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 plotly>=5.15.0
 
-# Jupyter
-jupyter>=1.0.0
-ipykernel>=6.25.0
+# Dashboard
+dash>=2.14.0
 
 # Utilities
 python-dotenv>=1.0.0
 tqdm>=4.65.0
 pyyaml>=6.0
-
-# WebSockets (for yfinance)
 websockets>=13.0
-
-# Note: requests-html is intentionally excluded due to dependency conflicts
-statsmodels>=0.14.0
+EOF
